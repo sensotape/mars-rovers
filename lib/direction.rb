@@ -1,6 +1,7 @@
 class Direction
   attr_reader :points
   
+  # @param d[String] direction
   def initialize(d)
     @points = d
   end
